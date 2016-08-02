@@ -1,0 +1,67 @@
+{
+  "name": "eslint-config-inpsyde",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config, following the Inpsyde JavaScript Style Guide.",
+  "keywords": [
+    "check",
+    "config",
+    "es2015",
+    "es2016",
+    "es5",
+    "es6",
+    "es7",
+    "eslint",
+    "eslintconfig",
+    "eslintrc",
+    "hint",
+    "inpsyde",
+    "javascript",
+    "js",
+    "lint",
+    "quality",
+    "style",
+    "validate",
+    "verify",
+	"wordpress",
+	"wp"
+  ],
+  "homepage": "https://github.com/inpsyde/javascript",
+  "bugs": {
+    "url": "https://github.com/inpsyde/javascript/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Inpsyde GmbH",
+    "email": "hello@inpsyde.com",
+    "url": "http://inpsyde.com"
+  },
+  "contributors": [
+    {
+      "name": "Thorsten Frommen",
+      "url": "https://twitter.com/thorstenfrommen"
+    }
+  ],
+  "files": [
+    "rules",
+    "es5.js",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "inpsyde/javascript"
+  },
+  "scripts": {
+    "ci": "jsonlint .eslintrc && jsonlint package.json && eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^3.2.0",
+    "jsonlint": "^1.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}

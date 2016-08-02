@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - 4
+  - 5
+  - 6
+
+sudo: false
+
+matrix:
+  fast_finish: true
+
+before_install:
+  - travis_retry npm install -g npm
+
+script:
+  - cd packages/eslint-config-inpsyde && npm run ci && cd ../..
