@@ -878,7 +878,7 @@ this.on( 'modelUpdated', ( e, data ) => {
 We provide config files for both [ESLint](http://eslint.org) and [JSHint](http://jshint.com), although we strongly encourage to use the way more powerful and flexible ESLint.
 
 In order to have a look at the files for linting _modern_ JavaScript code, please refer to the [`configs/`](configs/) folder.
-If you want to lint ES5 code, see [`configs/es5`](configs/es5) instead.
+If you want to lint ES5 code, see [`configs/es5/`](configs/es5/) instead.
 
 ## Kudos
 
