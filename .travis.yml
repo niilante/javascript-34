@@ -14,4 +14,4 @@ before_install:
   - travis_retry npm install -g npm
 
 script:
-  - cd packages/eslint-config-inpsyde && npm run ci && cd ../..
+  - cd packages/eslint-config-inpsyde && npm install && npm run ci && cd ../..
