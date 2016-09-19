@@ -13,6 +13,7 @@ module.exports = {
 		'no-process-env': 0,
 		'no-process-exit': 0,
 		'no-restricted-modules': 0,
+		'no-restricted-properties': 0,
 		'no-sync': 0
 	}
 };

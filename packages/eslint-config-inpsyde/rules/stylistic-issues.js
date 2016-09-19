@@ -12,6 +12,7 @@ module.exports = {
 		'computed-property-spacing': [ 2, 'always' ],
 		'consistent-this': 0,
 		'eol-last': 2,
+		'func-call-spacing': 2,
 		'func-names': 1,
 		'func-style': [ 2, 'declaration', {
 			allowArrowFunctions: true
@@ -25,6 +26,9 @@ module.exports = {
 		'jsx-quotes': 2,
 		'key-spacing': 2,
 		'keyword-spacing': 2,
+		'line-comment-position': [ 2, {
+			position: 'above'
+		} ],
 		'linebreak-style': 2,
 		'lines-around-comment': [ 2, {
 			beforeLineComment: true,
@@ -32,11 +36,14 @@ module.exports = {
 			allowObjectStart: true,
 			allowArrayStart: true
 		} ],
+		'lines-around-directive': 2,
 		'max-depth': 1,
 		'max-len': [ 2, {
 			code: 120,
 			tabWidth: 4,
-			ignoreUrls: true
+			ignoreUrls: true,
+			ignoreStrings: true,
+			ignoreTemplateLiterals: true
 		} ],
 		'max-lines': [ 1, {
 			max: 300,
@@ -77,7 +84,6 @@ module.exports = {
 		'no-new-object': 2,
 		'no-plusplus': 0,
 		'no-restricted-syntax': [ 2, 'DebuggerStatement', 'ForInStatement', 'LabeledStatement', 'WithStatement', ],
-		'no-spaced-func': 2,
 		'no-tabs': 0,
 		'no-ternary': 0,
 		'no-trailing-spaces': 2,
@@ -108,6 +114,7 @@ module.exports = {
 		} ],
 		'semi': 2,
 		'semi-spacing': 2,
+		'sort-keys': 0,
 		'sort-vars': 0,
 		'space-before-blocks': 2,
 		'space-before-function-paren': [ 2, {

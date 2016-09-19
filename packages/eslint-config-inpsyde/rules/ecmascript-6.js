@@ -1,6 +1,5 @@
 module.exports = {
 	parserOptions: {
-		ecmaVersion: 6,
 		sourceType: 'module'
 	},
 	env: {
@@ -33,6 +32,7 @@ module.exports = {
 		'prefer-const': [ 2, {
 			ignoreReadBeforeAssign: true
 		} ],
+		'prefer-numeric-literals': 2,
 		'prefer-reflect': 0,
 		'prefer-rest-params': 2,
 		'prefer-spread': 2,
@@ -40,6 +40,7 @@ module.exports = {
 		'require-yield': 2,
 		'rest-spread-spacing': 2,
 		'sort-imports': 0,
+		'symbol-description': 0,
 		'template-curly-spacing': 2,
 		'yield-star-spacing': 2
 	}

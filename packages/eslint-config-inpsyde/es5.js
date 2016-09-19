@@ -9,5 +9,8 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 5,
 		sourceType: 'script'
+	},
+	rules: {
+		'no-template-curly-in-string': 0,
 	}
 };
