@@ -13,6 +13,7 @@ module.exports = {
 		'consistent-this': 0,
 		'eol-last': 2,
 		'func-call-spacing': 2,
+		'func-name-matching': 1,
 		'func-names': 1,
 		'func-style': [ 2, 'declaration', {
 			allowArrowFunctions: true

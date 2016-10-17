@@ -13,7 +13,7 @@
 Install via npm:
 
 ```sh
-npm install --save-dev eslint-config-inpsyde eslint@^3.5.0
+npm install --save-dev eslint-config-inpsyde eslint@^3.8.0
 ```
 
 ## Usage
@@ -33,6 +33,10 @@ Currently, this means that the rules are specifically designed for ES6 code, whi
 If you want to lint ES5 code, then this config is for you.
 
 [Install the package](#installation), then add `"extends": "inpsyde/es5"` to your `.eslintrc` file.
+
+## Further Information
+
+For much more detailed information on how to use ESLint (for your WordPress projects), please refer to [this post](https://tfrommen.de/using-eslint-for-wordpress-projects/).
 
 ## License
 
