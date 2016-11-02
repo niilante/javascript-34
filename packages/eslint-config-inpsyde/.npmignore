@@ -14,3 +14,6 @@ logs
 
 # PhpStorm
 .idea
+
+# Yarn
+yarn.lock

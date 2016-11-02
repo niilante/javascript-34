@@ -13,7 +13,7 @@
 Install via npm:
 
 ```sh
-npm install --save-dev eslint-config-inpsyde eslint@^3.8.0
+npm install --save-dev eslint-config-inpsyde eslint
 ```
 
 ## Usage
