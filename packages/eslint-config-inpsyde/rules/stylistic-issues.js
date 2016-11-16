@@ -14,7 +14,7 @@ module.exports = {
 		'eol-last': 2,
 		'func-call-spacing': 2,
 		'func-name-matching': 1,
-		'func-names': 1,
+		'func-names': [ 1, 'as-needed' ],
 		'func-style': [ 2, 'declaration', {
 			allowArrowFunctions: true
 		} ],

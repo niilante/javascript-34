@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0
+
+- Dependencies: Update ESLint to 3.10.0.
+- Adapt rules to ESLint 3.10.0.
+
 ## 1.3.0
 
 - Dependencies: Update ESLint to 3.9.0.

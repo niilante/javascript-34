@@ -11,6 +11,7 @@ module.exports = {
 		sourceType: 'script'
 	},
 	rules: {
+		'func-names': 1,
 		'no-template-curly-in-string': 0,
 	}
 };
