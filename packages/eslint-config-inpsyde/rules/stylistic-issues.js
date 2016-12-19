@@ -6,6 +6,7 @@ module.exports = {
 		'camelcase': [ 2, {
 			properties: 'never'
 		} ],
+		'capitalized-comments': [ 2, 'always' ],
 		'comma-dangle': 0,
 		'comma-spacing': 2,
 		'comma-style': 2,

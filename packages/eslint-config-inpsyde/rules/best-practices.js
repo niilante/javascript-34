@@ -68,6 +68,7 @@ module.exports = {
 		'no-warning-comments': 0,
 		'no-with': 2,
 		'radix': 2,
+		'require-await': 2,
 		'vars-on-top': 2,
 		'wrap-iife': 2,
 		'yoda': [ 2, 'always' ]
