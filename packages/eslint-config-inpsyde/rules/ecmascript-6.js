@@ -32,6 +32,7 @@ module.exports = {
 		'prefer-const': [ 2, {
 			ignoreReadBeforeAssign: true
 		} ],
+		'prefer-destructuring': 0,
 		'prefer-numeric-literals': 2,
 		'prefer-reflect': 0,
 		'prefer-rest-params': 2,

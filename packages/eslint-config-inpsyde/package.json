@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-inpsyde",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Shareable ESLint config, following the Inpsyde JavaScript Style Guide.",
   "keywords": [
     "check",
@@ -33,7 +33,7 @@
   "author": {
     "name": "Inpsyde GmbH",
     "email": "hello@inpsyde.com",
-    "url": "http://inpsyde.com"
+    "url": "https://inpsyde.com"
   },
   "contributors": [
     {
@@ -55,11 +55,11 @@
     "ci": "jsonlint .eslintrc && jsonlint package.json && eslint ."
   },
   "devDependencies": {
-    "eslint": "^3.12.0",
+    "eslint": "^3.13.0",
     "jsonlint": "^1.6.0"
   },
   "peerDependencies": {
-    "eslint": "^3.12.0"
+    "eslint": "^3.13.0"
   },
   "engines": {
     "node": ">=4"

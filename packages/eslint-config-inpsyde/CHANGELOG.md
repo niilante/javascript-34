@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.0
+
+- Dependencies: Update ESLint to 3.13.x.
+- Adapt rules to ESLint 3.13.x.
+- Travis CI: Switch to using Yarn.
+
 ## 1.5.0
 
 - Dependencies: Update ESLint to 3.12.x.
