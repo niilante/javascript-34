@@ -10,8 +10,10 @@ sudo: false
 matrix:
   fast_finish: true
 
+cache: yarn
+
 before_install:
-  - travis_retry npm install -g npm
+  - travis_retry npm i -g yarn
 
 script:
-  - cd packages/eslint-config-inpsyde && npm install && npm run ci && cd ../..
+  - cd packages/eslint-config-inpsyde && yarn && yarn run ci && cd ../..
