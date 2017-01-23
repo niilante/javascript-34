@@ -52,7 +52,7 @@
     "url": "inpsyde/javascript"
   },
   "scripts": {
-    "ci": "jsonlint .eslintrc && jsonlint package.json && eslint ."
+    "test": "jsonlint .eslintrc && jsonlint package.json && eslint ."
   },
   "devDependencies": {
     "eslint": "^3.13.0",
