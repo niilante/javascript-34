@@ -77,6 +77,7 @@ module.exports = {
 			]
 		} ],
 		'no-mixed-spaces-and-tabs': 2,
+		'no-multi-assign': 2,
 		'no-multiple-empty-lines': [ 2, {
 			max: 1,
 			maxEOF: 1

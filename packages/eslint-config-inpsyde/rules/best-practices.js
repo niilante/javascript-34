@@ -67,6 +67,7 @@ module.exports = {
 		'no-void': 2,
 		'no-warning-comments': 0,
 		'no-with': 2,
+		'prefer-promise-reject-errors': 1,
 		'radix': 2,
 		'require-await': 2,
 		'vars-on-top': 2,

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.7.0
+
+- Dependencies: Update ESLint to 3.14.x.
+- Adapt rules to ESLint 3.14.x.
+- Improve EditorConfig file.
+- Rename ci/test script.
+
 ## 1.6.0
 
 - Dependencies: Update ESLint to 3.13.x.
