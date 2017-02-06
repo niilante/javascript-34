@@ -43,6 +43,7 @@ module.exports = {
 		'sort-imports': 0,
 		'symbol-description': 0,
 		'template-curly-spacing': 2,
+		'template-tag-spacing': 2,
 		'yield-star-spacing': 2
 	}
 };
