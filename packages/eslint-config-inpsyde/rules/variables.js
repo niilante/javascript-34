@@ -10,7 +10,9 @@ module.exports = {
 		'no-undef': 2,
 		'no-undef-init': 2,
 		'no-undefined': 0,
-		'no-unused-vars': 2,
+		'no-unused-vars': [ 2, {
+			'ignoreRestSiblings': true
+		} ],
 		'no-use-before-define': 2
 	}
 };
