@@ -93,6 +93,7 @@ module.exports = {
 		'no-underscore-dangle': 0,
 		'no-unneeded-ternary': 2,
 		'no-whitespace-before-property': 2,
+		'nonblock-statement-body-position': [ 2, 'below' ],
 
 		// TODO: Enable as soon as https://github.com/eslint/eslint/issues/6488 has been fixed.
 		'object-curly-newline': 0,

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.9.0
+
+- Dependencies: Update ESLint to 3.17.x.
+- Adapt rules to ESLint 3.17.x.
+- Improve `no-unused-vars` configuration by using `ignoreRestSiblings` option.
+
 ## 1.8.0
 
 - Dependencies: Update ESLint to 3.15.x.
