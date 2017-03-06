@@ -891,6 +891,6 @@ Yes, this helped indeed, so thanks a lot for all the effort you put into this!
 
 ## License
 
-Copyright (c) 2016 Inpsyde GmbH
+Copyright (c) 2017 Inpsyde GmbH
 
 This code is licensed under the [MIT License](LICENSE).

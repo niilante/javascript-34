@@ -40,6 +40,6 @@ For much more detailed information on how to use ESLint (for your WordPress proj
 
 ## License
 
-Copyright (c) 2016 Inpsyde GmbH
+Copyright (c) 2017 Inpsyde GmbH
 
 This code is licensed under the [MIT License](LICENSE).
